@@ -1,0 +1,50 @@
+
+.LeftBorder{
+    float:left;
+	padding-left:50px;
+    font-size:30px;
+	border-radius: 25px;
+	width: 350px;
+	height: 880px;
+	margin: 0 auto;
+	position:relative;
+	background:#e1f9d6;
+}
+.cteatNewChat{
+	
+	width: 250px;
+	height: 30px;
+	font-size:20px;
+	background:white;
+	border: 0;
+	border-radius: 25px;
+	margin-top:20px;
+	cursor: pointer;
+	&:hover {color:#00d0ff;}  /* 鼠标移动到链接上 */
+	&:active {color:#0000FF;}/* 鼠标点击时 */
+}
+
+
+.hint{
+	font-size:15px;
+}
+
+.sidebar-logo {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	float:right;
+	cursor: pointer; // 鼠标悬停在具有此样式的元素上时，指针通常会变成一个手形图标
+  }
+
+  .whole{
+  margin: 0 auto;
+  }
+  
+.cteatNewChat-logo{
+	position: absolute;
+	right: 75px;
+	top: 73px;
+	float:right;
+	cursor: pointer;
+}
