@@ -62,7 +62,8 @@ export default function Chat() {
             </div>
             <div className={styles["chat-content"]}>
                 {messages.map((item,i)=>(
-                    <ChatContent 
+                    <ChatContent
+                    key={i} 
                     role={item.role}
                     id={item.id}
                     content={item.content}
